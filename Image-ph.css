@@ -1,0 +1,115 @@
+.hero.bg-img h1{
+    inline-size: 80%;
+    
+}
+
+
+.section-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-block-start: 50px;
+    padding-block-end: 50px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-header .note {
+  margin: 14px auto;
+}
+
+
+.wrap.sound-section{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding-block-start: 50px;
+    padding-block-end: 50px;
+}
+
+.wrap.sound-section .note {
+  margin: 14px auto;
+}
+
+.wrap.sound-section .chips{
+    justify-content: center;
+}
+
+.section.sound-section {
+    background-color: #fedada;
+}
+
+.hero.bg-img {
+    background-image: url(Assets/bg-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ph.hero-img.bg {
+    background-image: url(Assets/hero-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.contacts .contact .ph{
+    border-radius: 0px;
+}
+
+.contacts .contact .ph.g1.wide{
+    background-image: url(Assets/About-img1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts .contact .ph.g2.wide{
+    background-image: url(Assets/About-img2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts .contact .ph.g3.wide{
+    background-image: url(Assets/About-img3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts .contact{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contact-desc{
+    padding-inline: 16px;
+    padding-block-end: 35px;
+}
+
+
+
+.wrap.locations{
+    margin: 0 auto;
+    justify-content: center;
+    padding: 50px;
+}
+
+.wrap.locations .contact {
+    padding: 50px;
+}
+
+.wrap.location .tag{
+    margin-block-start: 0px;
+}
+
+.wrap.location .contact-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
